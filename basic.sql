@@ -15,9 +15,17 @@ CREATE TABLE Club (
 
 -- Create Membership Table with foreign keys
 CREATE TABLE Membership (
+    MembershipID INT PRIMARY KEY,
     StudentID INT,
     ClubID INT,
     JoinDate DATEL,
     FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
     FOREIGN KEY (ClubID) REFERENCES Club(ClubID)
 );
+
+
+
+
+
+
+
