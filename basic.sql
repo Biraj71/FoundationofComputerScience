@@ -24,8 +24,11 @@ CREATE TABLE Membership (
 );
 
 
+INSERT INTO Student (StudentID, StudentName, Email)VALUES(8, ‘Samba’, ‘samba@email.com’);
 
+INSERT INTO Club (ClubID, ClubName, ClubRoom, ClubMentor) VALUES (5, ‘Photography Club’, ‘R404’, ‘Ms. Priya’);
 
+SELECT * FROM Student;
 
-
+SELECT * FROM Club;
 
